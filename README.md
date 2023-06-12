@@ -1,5 +1,5 @@
-# tomcat-elasticbeanstalk
-The purpose of this repository is to deploy the "Tomcat" game on AWS Elastic Beanstalk. Tomcat is "a snake game where you collect points by eating food". Source files for the Tomcat game can be found at: https://github.com/chandradeoarya/tomcat-jsp-snakegame
+# snake-elasticbeanstalk
+The purpose of this repository is to deploy a Tomcat game on AWS Elastic Beanstalk. The game is described as "a snake game where you collect points by eating food". Source files for the snake game can be found at: https://github.com/chandradeoarya/tomcat-jsp-snakegame
 
 ***Step One: Create an AWS Elastic Beanstalk environment with Java platform and Tomcat as the application server***
 First, copy project files to the working directory
@@ -28,4 +28,5 @@ eb create eb-snake --single     #"--single" option creates an environment with a
 
 Example Format: http://eb-snake2.eba-z2uhcpip.ca-central-1.elasticbeanstalk.com/webapp
 
+<img width="762" alt="image" src="https://github.com/perryb3693/tomcat-elasticbeanstalk/assets/129805541/b16a7a52-e21c-49be-8c87-f683cbd1823d">
 
